@@ -1,0 +1,46 @@
+.container {
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-circle {
+    /* margin: auto; */
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.s-circle {
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    background-color: aqua;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.hand {
+    background-color: black;
+    width: 170px;
+    margin: 5px;
+    height: 3px;
+    position: absolute;
+    /* top: 50%; */
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.secs {
+    /* height: 150px; */
+    background-color: red;
+}
